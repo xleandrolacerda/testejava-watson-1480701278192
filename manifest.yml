@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testejava-watson
+  host: testejava-watson
+  disk_quota: 1024M
+  services:
+  - testejava-watson-personality_insights
